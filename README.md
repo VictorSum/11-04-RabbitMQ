@@ -1,4 +1,4 @@
-# Домашнее задание к занятию 11.4 - "`Очереди RabbitMQ`" - `Емельянов Михаил`
+# Домашнее задание к занятию 11.4 - "`Очереди RabbitMQ`" - `Сумской Виктор`
 
 ### Инструкция по выполнению домашнего задания
 
@@ -26,7 +26,7 @@
 
 #### ОТВЕТ:
 
-![Скриншот-1](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_1.png)
+![Скриншот-1](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_1.png)
 
 ---
 
@@ -51,10 +51,10 @@ $ pip install pika
 
 #### ОТВЕТ:
 
-![Скриншот-2](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_2.png)
-![Скриншот-2.2](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_2.2.png)
-![Скриншот-3](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_3.png)
-![Скриншот-3.2](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_3.2.png)
+![Скриншот-2](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_2.png)
+![Скриншот-2.2](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_2.2.png)
+![Скриншот-3](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_3.png)
+![Скриншот-3.2](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_3.2.png)
 
 ---
 
@@ -94,23 +94,15 @@ $ rabbitmqadmin get queue='hello'
 
 #### ОТВЕТ:
 
-![Скриншот-4](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_4.png)
-![Скриншот-4.1](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_4.1.png)
-![Скриншот-4.2](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_4.2.png)
-![Скриншот-4.3](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_4.3.png)
-![Скриншот-4.4](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_4.4.png)
-![Скриншот-4.5](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_4.5.png)
-![Скриншот-4.6](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_4.6.png)
-![Скриншот-4.7](https://github.com/Monooks/11-04_NetoHW/blob/main/img/11.04_4.7.png)
+![Скриншот-4](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_4.png)
+![Скриншот-4.1](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_4.1.png)
+![Скриншот-4.2](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_4.2.png)
+![Скриншот-4.3](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_4.3.png)
+![Скриншот-4.4](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_4.4.png)
+![Скриншот-4.5](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_4.5.png)
+![Скриншот-4.6](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_4.6.png)
+![Скриншот-4.7](https://github.com/VictorSum/11-04-RabbitMQ/blob/main/img/11.04_4.7.png)
 
 ---
 
-## Дополнительные задания (со звёздочкой*)
-Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
 
-### * Задание 4. Ansible playbook
-
-Напишите плейбук, который будет производить установку RabbitMQ на любое количество нод и объединять их в кластер.
-При этом будет автоматически создавать политику ha-all.
-
-*Готовый плейбук разместите в своём репозитории.*
